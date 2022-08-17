@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>LevelUp</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="img/prod.png" type="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="page">
+    <header class="page__header header">
+            <section class="header__section header-section">
+                <div class="container">
+                    <div class="header-section__intro intro">
+                        <div class="intro__media intro-media">
+                            <video class="intro-media__video" autoplay muted loop src="video/nature.mp4" type="video/mp4"></video>
+                        </div>
+
+                        <div class="intro__content promo">
+                            <div class="promo__point-first first">
+                                <h1 class="first__title">LevelUp</h1>
+                            </div>
+
+                            <div class="promo__point-second second">
+                                <img class="second__image" src="img/prod.png" alt="product">
+                            </div>
+
+                            <div class="promo__point-second third">
+                                <ul class="third__list"> Характеристики продукта:
+                                    <li class="third__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                    <li class="third__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                    <li class="third__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                </ul>
+                                <a class="third__button" href="#buy-one">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </header>
+    <main class="page__main main">
+        <section class="main__section product">
+            <div class="container">
+                <div class="product__content">
+                    <ul class="product__list">
+                        <li class="product__item item-first">
+                            <img class="product__image-hero" src="img/prod.png" alt="product">
+                            <a class="product__button" href="#buy-two">Заказать</a>
+                        </li>
+                        <li class="product__item item-two">
+                            <img class="product__image" src="img/spices_set.jpg" alt="included">
+                            <p class="product__description">Lorem ipsum dolor sit amet.</p>
+                        </li>
+                        <li class="product__item item-three">
+                            <img class="product__image" src="img/spices_set.jpg" alt="included">
+                            <p class="product__description">Lorem ipsum dolor sit amet.</p>
+                        </li>
+                        <li class="product__item item-four">
+                            <img class="product__image" src="img/spices_set.jpg" alt="included">
+                            <p class="product__description">Lorem ipsum dolor sit amet.</p>
+                        </li>
+                        <li class="product__item item-five">
+                            <img class="product__image" src="img/spices_set.jpg" alt="included">
+                            <p class="product__description">Lorem ipsum dolor sit amet.</p>
+                        </li>
+                        <li class="product__item item-six">
+                            <img class="product__image" src="img/spices_set.jpg" alt="included">
+                            <p class="product__description">Lorem ipsum dolor sit amet.</p>
+                        </li>
+                        <li class="product__item item-seven">
+                            <img class="product__image" src="img/spices_set.jpg" alt="included">
+                            <p class="product__description">Lorem ipsum dolor sit amet.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="main__section carousel">
+            <div class="container">
+                <ol class="carousel__viewport">
+                    <li id="carousel__slide1"
+                        tabindex="0"
+                        class="carousel__slide">
+                        <div class="carousel__snapper">
+                            <div class="carousel-content card-first">
+                                <img class="card-first__image" src="img/pexels-maria-orlova-4947740.jpg" alt="client">
+                                <h2 class="card-first__title">Lorem ipsum.</h2>
+                                <p class="card-first__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet ea est et excepturi harum officiis, reprehenderit soluta? Error, nihil.</p>
+                            </div>
+                            <a href="#carousel__slide3"
+                               class="carousel__prev">Go to last slide</a>
+                            <a href="#carousel__slide2"
+                               class="carousel__next">Go to next slide</a>
+                        </div>
+                    </li>
+                    <li id="carousel__slide2"
+                        tabindex="0"
+                        class="carousel__slide">
+                        <div class="carousel__snapper">
+                            <div class="reviews__content reviews-content">
+                                <div class="carousel-content card-second">
+                                    <img class="card-second__image" src="img/pexels-romka-%C2%A0-13011702.jpg" alt="client">
+                                    <h2 class="card-second__title">Lorem ipsum.</h2>
+                                    <p class="card-second__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta dolorum, nulla? Architecto distinctio explicabo facilis ipsum laborum repudiandae. Facere, nobis!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#carousel__slide1"
+                           class="carousel__prev">Go to previous slide</a>
+                        <a href="#carousel__slide3"
+                           class="carousel__next">Go to next slide</a>
+                    </li>
+                    <li id="carousel__slide3"
+                        tabindex="0"
+                        class="carousel__slide">
+                        <div class="carousel__snapper">
+                            <div class="carousel-content card-three">
+                                <img class="card-three__image" src="img/pexels-skildring-by-andreas-ellegaard-12871449.jpg" alt="client">
+                                <h2 class="card-three__title">Lorem ipsum.</h2>
+                                <p class="card-three__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius laboriosam nam numquam qui. A corporis, molestias officiis voluptate voluptatem voluptatum.</p>
+                            </div>
+                        </div>
+                        <a href="#carousel__slide2"
+                           class="carousel__prev">Go to previous slide</a>
+                        <a href="#carousel__slide1"
+                           class="carousel__next">Go to next slide</a>
+                    </li>
+                </ol>
+                <aside class="carousel__navigation">
+                    <ol class="carousel__navigation-list">
+                        <li class="carousel__navigation-item">
+                            <a href="#carousel__slide1"
+                               class="carousel__navigation-button">Go to slide 1</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                            <a href="#carousel__slide2"
+                               class="carousel__navigation-button">Go to slide 2</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                            <a href="#carousel__slide3"
+                               class="carousel__navigation-button">Go to slide 3</a>
+                        </li>
+                    </ol>
+                </aside>
+            </div>
+        </section>
+
+        <section class="main__section main-promo">
+            <div class="container">
+                <div class="main-promo__wrapper">
+                    <div class="main-promo__content content-image">
+                        <img src="img/doctor.png" alt="doctor">
+                    </div>
+
+                    <div class="main-promo__content content-description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias consectetur doloremque dolorum eum hic in obcaecati perferendis, quos tempore?</p>
+                        <a class="content-description__button" href="#buy-three">Заказать</a>
+                    </div>
+
+                    <div class="main-promo__content content-specification">
+                        <ul class="content-specification__list">Характеристики:
+                            <li class="content-specification__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li class="content-specification__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li class="content-specification__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main__section order">
+            <div class="container">
+                <div class="order__wrapper">
+                    <form class="order__form" action="https://jsonplaceholder.typicode.com/posts"
+                    method="post">
+                        <h2 class="order__title">LevelUp</h2>
+
+                        <div class="timer-wrap">
+                            <div class="timer">
+                                <div class="countdown fc">
+                                    <div class="numbers fr">
+                                        <div class="mins tens">
+                                            <div class="numlist">
+                                                <div class="num">0</div>
+                                                <div class="num">9</div>
+                                                <div class="num">8</div>
+                                                <div class="num">7</div>
+                                                <div class="num">6</div>
+                                                <div class="num">5</div>
+                                                <div class="num">4</div>
+                                                <div class="num">3</div>
+                                                <div class="num">2</div>
+                                                <div class="num">1</div>
+                                                <div class="num">0</div>
+                                            </div>
+                                        </div>
+                                        <div class="mins ones">
+                                            <div class="numlist">
+                                                <div class="num">0</div>
+                                                <div class="num">9</div>
+                                                <div class="num">8</div>
+                                                <div class="num">7</div>
+                                                <div class="num">6</div>
+                                                <div class="num">5</div>
+                                                <div class="num">4</div>
+                                                <div class="num">3</div>
+                                                <div class="num">2</div>
+                                                <div class="num">1</div>
+                                                <div class="num">0</div>
+                                            </div>
+                                        </div>
+                                        <div class="seperator">:</div>
+                                        <div class="secs tens">
+                                            <div class="numlist">
+                                                <div class="num">0</div>
+                                                <div class="num">5</div>
+                                                <div class="num">4</div>
+                                                <div class="num">3</div>
+                                                <div class="num">2</div>
+                                                <div class="num">1</div>
+                                                <div class="num">0</div>
+                                            </div>
+                                        </div>
+                                        <div class="secs ones">
+                                            <div class="numlist">
+                                                <div class="num">9</div>
+                                                <div class="num">8</div>
+                                                <div class="num">7</div>
+                                                <div class="num">6</div>
+                                                <div class="num">5</div>
+                                                <div class="num">4</div>
+                                                <div class="num">3</div>
+                                                <div class="num">2</div>
+                                                <div class="num">1</div>
+                                                <div class="num">0</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <img class="order__image" src="img/prod.png" alt="product">
+                        <div class="order__price">
+                            <p class="order__price-old">old price: <s>199$</s></p>
+                            <p class="order__price-new">new price: 99$</p>
+                        </div>
+
+                        <div id="buy-one" class="order__list">
+                            <label id="buy-two" class="order__label order__label-first">Имя
+                                <input class="order__input" type="text" name="Name" required title="Виктор">
+                            </label>
+                            <label id="buy-three" class="order__label order__label-second">Телефон
+                                <input class="order__input" type="tel" name="Phone" required title="+7-___-___-__-__"
+                                       pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$">
+                            </label>
+
+                            <button class="order__button" type="submit">Заказать</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
