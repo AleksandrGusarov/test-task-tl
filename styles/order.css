@@ -2,7 +2,7 @@
 .order__form {
     display: grid;
     grid-template-columns: minmax(50px, 300px) minmax(50px, 400px) minmax(50px, 400px) minmax(50px, 300px);
-    grid-template-rows: minmax(50px, 200px) minmax(50px, 200px) minmax(50px, 300px) minmax(50px, 200px) minmax(50px, 200px);
+    grid-template-rows: minmax(50px, 250px) minmax(50px, 300px) minmax(50px, 300px) minmax(50px, 200px) minmax(50px, 200px);
     place-items: center;
     justify-content: center;
 }
@@ -80,6 +80,7 @@
 
 .order__price-new {
     animation: 3s linear 0s infinite anim-one;
+		will-change: transform;
 }
 
 @keyframes anim-one {
@@ -114,6 +115,7 @@
     .order__title {
         font-size: 110px;
         line-height: 120px;
+				margin-bottom: 35px;
     }
 
     .order__form {
@@ -256,8 +258,6 @@
         line-height: 8rem;
         margin-right: 0.8rem;
     }
-
-
 
     .order__form {
         grid-template-columns: minmax(15px, 100px) minmax(15px,130px) minmax(15px, 130px) minmax(15px, 100px);

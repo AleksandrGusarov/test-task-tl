@@ -18,7 +18,8 @@ body {
     font-weight: 400;
     color: #FFFFFF;
     background-color: #1B1A1B;
-    background-image: linear-gradient(140deg, #cc00ffc2, #360c36, #1B1A1B);
+    /* background-image: linear-gradient(180deg, #0A0878, #0A0844, #0A0824, #000000); */
+		background-image: linear-gradient(180deg, #000000 16%, #0A0824, #0A0844, #040336, #070630, #0A0824, #000000 );
 }
 
 img {

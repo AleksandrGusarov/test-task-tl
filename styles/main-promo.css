@@ -1,3 +1,7 @@
+.main-promo {
+	min-height: 800px;
+}
+
 .main-promo__wrapper {
     max-width: 100vh;
     display: grid;
@@ -41,6 +45,7 @@
     align-items: center;
     gap: 35px;
     padding-left: 0;
+		list-style: none;
 }
 
 .content-specification__item{
